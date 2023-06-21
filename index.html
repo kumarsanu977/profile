@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kumar Gurung's Profile Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background: #35424a;
+        color: #ffffff;
+        padding: 1em 0;
+        text-align: center;
+        display: flex;
+      }
+      #profile-pic {
+        border-radius: 50%;
+        width: 100px;
+        display: block;
+        margin: 10px auto;
+        float: right;
+
+      }
+      .section {
+        margin: 40px;
+      }
+      table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      iframe {
+        display: block;
+        margin: 20px auto;
+      }
+      #social {
+        text-align: center;
+        margin-top: 20px;
+      }
+      p {
+        text-align: justify;
+      }
+      ul.navbar {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+      }
+
+      li.navbar {
+        display: inline;
+        float: left;
+        padding: 8px;
+        size: 22px;
+
+      }
+      li.navbar a {
+        text-decoration: none;
+        color: #f2f2f2;
+      }
+      li.navbar a:hover {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section><h1>Kumar Gurung</h1></section>
+      <section>
+        <nav class="section" id="menu">
+          <ul class="navbar">
+            <li class="navbar"><a href="#">Home</a></li>
+            <li class="navbar"><a href="#biography">Biography</a></li>
+            <li class="navbar"><a href="#education">Education</a></li>
+            <li class="navbar"><a href="#experience">Experience</a></li>
+            <li class="navbar"><a href="#hobbies">Hobbies</a></li>
+            <li class="navbar"><a href="#skills">Skills</a></li>
+            <li class="navbar"><a href="#media">Love Music</a></li>
+            <li class="navbar"><a href="#address">contact</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        <img id="profile-pic" src="pp.jpg" alt="Profile Picture" />
+      </section>
+    </header>
+    <main>
+      <section id="biography" class="section">
+        <h3>Biography</h3>
+        <p>
+          Hello Namaste, I'm Kumar Gurung, born on September 4, 1991, I'm a
+          dedicated IT professional with a passion for systems engineering and
+          backend development. Hailing from Dang, Nepal, I embarked on my
+          educational journey by earning a Diploma in Computer Engineering from
+          Rapti Engineering College in 2013. Then pursued a Bachelor of
+          Engineering in Information Technology from Cosmos College of
+          Management and Technology, where I graduated with a CGPA of 3.0 in
+          February 2019. My unwavering dedication to learning saw me furthering
+          my education abroad, and he is currently pursuing a Master's degree in
+          IT at Kyoto College of Graduate Studies for Informatics, Japan.
+        </p>
+      </section>
+
+      <section id="education" class="section">
+        <h3>Education</h3>
+        <table>
+          <tr>
+            <th>Year</th>
+            <th>Qualification</th>
+            <th>Institute</th>
+          </tr>
+          <tr>
+            <td>Running</td>
+            <td>MSc IT</td>
+            <td>Kyoto College of Graduate Studies for Informatics, Japan</td>
+          </tr>
+          <tr>
+            <td>February, 2019</td>
+            <td>Bachelor of Engineering in Information Technology</td>
+            <td>
+              Cosmos College of Management and Technology, Pokhara University
+            </td>
+          </tr>
+          <!-- ...other qualifications... -->
+        </table>
+      </section>
+
+      <section id="experience" class="section">
+        <h3>Work Experience</h3>
+        <table>
+          <tr>
+            <th>Year</th>
+            <th>Position</th>
+            <th>Copany</th>
+          </tr>
+          <tr>
+            <td>2018-2019</td>
+            <td>System Administrator</td>
+            <td>Max International Nepal</td>
+          </tr>
+          <tr>
+            <td>2020-2023</td>
+            <td>IT system Engineer</td>
+            <td>
+              Information and communication Technology Academy Lumbini Province
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <section id="hobbies" class="section">
+        <h3>Hobbies</h3>
+        <p>
+          In addition to my career pursuits, I enjoy engaging with the community
+          through my Facebook account. When not immersed in my professional
+          endeavors, I indulge in my hobbies which include traveling to new
+          places, particularly mountains, forests, and rivers, and studying new
+          information technology to keep himself updated in his field. I find
+          solace and inspiration in the beauty of nature and believes in
+          constant self-improvement through learning.
+        </p>
+      </section>
+      <section id="skills" class="section">
+        <h3>Skills</h3>
+        <ul class="section">
+          <li>System Engineering</li>
+          <ol>
+            <li>Storage System (NAS and SAN)</li>
+            <li>Server(Physical server and server operating system)</li>
+            <li>Networking</li>
+            <li>Virtualization(Vmware and Hyper-v)</li>
+            <li>Cloud Computing(Microsoft Azure)</li>
+            <li>Database (MS SQL server)</li>
+          </ol>
+          <li>Development</li>
+          <ol>
+            <li>Node js Backend Development</li>
+            <li>React js</li>
+            <li>HTML, CSS, and Js</li>
+          </ol>
+        </ul>
+      </section>
+      <section id="media" class="section">
+        <h3>I Love nature</h3>
+        <iframe
+          width="640"
+          height="360"
+          src="https://www.youtube.com/embed/QDm-8Aly7pc"
+        ></iframe>
+        <h3>National Anthom of Nepal</h3>
+        <audio controls>
+          <source src="https://bestringtoness.com/download/1790/mp3" />
+        </audio>
+      </section>
+      <section id="address" class="section">
+        <h3>Address</h3>
+        <p>606-8104 Kyoto shi sakyo ku Takanotakeyachou 45-3</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3301.494255581011!2d135.76630401547612!3d35.03412908035275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600108e6f5555555%3A0x4930d85714dabcb0!2z44CSNjA2LTA4MTQg5YyX5Lmd5bed5biC5b6u5Yy66KW_5rC055S677yR5LiB5L2T5LiA55S677yY4oiS77yR77yR!5e0!3m2!1sen!2snp!4v1644585201684!5m2!1sen!2snp"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </section>
+    </main>
+    <footer>
+      <section id="social" class="section">
+        <h3>Find me on Social Media</h3>
+        <a href="https://www.facebook.com/erkumargr/" target="_blank"
+          >Facebook</a
+        >
+        <h3>My Website</h3>
+        <a href="https://kumargurung.com.np/" target="_blank"
+          >kumargurung.com.np</a
+        >
+      </section>
+    </footer>
+  </body>
+</html>
